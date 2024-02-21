@@ -25,7 +25,7 @@ app.use('/api', productRouter)
 
 
 app.get('/', (req, res) => {
-  throw new Error('fake error')
+  res.send("Hello world!")
 })
 
 
